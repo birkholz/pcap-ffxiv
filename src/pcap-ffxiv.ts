@@ -23,7 +23,13 @@ import { desynthResultPacketProcessors } from "./packet-processors/desynth-resul
 import { resultDialogPacketProcessors } from "./packet-processors/result-dialog-packet-processors";
 import { CaptureInterfaceOptions } from "./capture-interface-options";
 import { Deucalion } from "./Deucalion";
-import { getPIDByName, injectPID } from "@ffxiv-teamcraft/dll-inject";
+let getPIDByName: (name: string) => number = () => -1;
+let injectPID: (pid: number, path: string) => number = () => -1;
+try {
+	// Optional Windows-only native module — not installed on Linux.
+	// eslint-disable-next-line @typescript-eslint/no-var-requires
+	({ getPIDByName, injectPID } = require("@ffxiv-teamcraft/dll-inject"));
+} catch { /* not available on this platform */ }
 import crypto from "crypto";
 import { exec } from "child_process";
 
