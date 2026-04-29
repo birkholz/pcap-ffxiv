@@ -7,7 +7,6 @@
 	"author": "karashiiro <49822414+karashiiro@users.noreply.github.com>",
 	"license": "MIT",
 	"scripts": {
-		"prepare": "tsc",
 		"prebuild": "rimraf lib/* && yarn pcap-types:generate && yarn copyfiles && node prebuild.js",
 		"prebuild:include-rust": "rimraf lib/* && yarn pcap-types:generate && yarn dll:build && yarn copyfiles:rust && node prebuild.js",
 		"build": "yarn prebuild && tsc",

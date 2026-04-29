@@ -104,7 +104,7 @@ dist
 .tern-port
 
 # Output files
-lib/
+# lib/ is committed so GitHub-dependent installs work without a build step
 
 # IDE folders
 .idea/

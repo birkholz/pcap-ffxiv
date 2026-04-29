@@ -1,0 +1,1 @@
+{"version":3,"file":"objectSpawn.d.ts","sourceRoot":"","sources":["../../../src/packet-processors/processors/objectSpawn.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,oBAAoB,CAAC;AAClD,OAAO,EAAE,WAAW,EAAE,MAAM,mBAAmB,CAAC;AAEhD,wBAAgB,WAAW,CAAC,MAAM,EAAE,YAAY,GAAG,WAAW,CAiB7D"}

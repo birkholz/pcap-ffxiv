@@ -1,0 +1,1 @@
+{"version":3,"file":"actorFreeSpawn.d.ts","sourceRoot":"","sources":["../../../src/packet-processors/processors/actorFreeSpawn.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,oBAAoB,CAAC;AAClD,OAAO,EAAE,cAAc,EAAE,MAAM,mBAAmB,CAAC;AAEnD,wBAAgB,cAAc,CAAC,MAAM,EAAE,YAAY,GAAG,cAAc,CAKnE"}

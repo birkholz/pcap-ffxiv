@@ -1,0 +1,1 @@
+{"version":3,"file":"inventoryModifyHandler.d.ts","sourceRoot":"","sources":["../../../src/packet-processors/processors/inventoryModifyHandler.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,oBAAoB,CAAC;AAClD,OAAO,EAAE,sBAAsB,EAAE,MAAM,mBAAmB,CAAC;AAC3D,OAAO,EAAE,aAAa,EAAE,MAAM,cAAc,CAAC;AA8B7C,wBAAgB,sBAAsB,CAAC,MAAM,EAAE,YAAY,EAAE,SAAS,EAAE,aAAa,GAAG,sBAAsB,CAU7G"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"IslandWorkshopSupplyDemand.d.ts","sourceRoot":"","sources":["../../src/definitions/IslandWorkshopSupplyDemand.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,0BAA0B;IAC1C,UAAU,EAAE,MAAM,CAAC;IACnB,mBAAmB,EAAE,MAAM,CAAC;IAC5B,YAAY,EAAE;QACb,EAAE,EAAE,MAAM,CAAC;QACX,MAAM,EAAE,MAAM,CAAC;QACf,MAAM,EAAE,MAAM,CAAC;KACf,EAAE,CAAC;CACJ"}

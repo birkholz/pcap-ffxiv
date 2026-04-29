@@ -1,0 +1,1 @@
+{"version":3,"file":"AetherReductionDlg.d.ts","sourceRoot":"","sources":["../../src/definitions/AetherReductionDlg.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,gBAAgB,CAAC;AAE9C,MAAM,WAAW,kBAAmB,SAAQ,YAAY;IACvD,aAAa,EAAE,MAAM,CAAC;IACtB,WAAW,EAAE;QACZ,MAAM,EAAE,MAAM,CAAC;QACf,EAAE,EAAE,OAAO,CAAC;QACZ,QAAQ,EAAE,MAAM,CAAC;KACjB,EAAE,CAAC;CACJ"}

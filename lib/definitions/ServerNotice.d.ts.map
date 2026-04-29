@@ -1,0 +1,1 @@
+{"version":3,"file":"ServerNotice.d.ts","sourceRoot":"","sources":["../../src/definitions/ServerNotice.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,YAAY;IAC5B,WAAW,EAAE,MAAM,CAAC;IACpB,eAAe,EAAE,SAAS,GAAG,WAAW,GAAG,UAAU,GAAG,oBAAoB,CAAC;IAC7E,OAAO,EAAE,MAAM,CAAC;CAChB"}

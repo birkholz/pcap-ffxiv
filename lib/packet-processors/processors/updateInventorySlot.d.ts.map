@@ -1,0 +1,1 @@
+{"version":3,"file":"updateInventorySlot.d.ts","sourceRoot":"","sources":["../../../src/packet-processors/processors/updateInventorySlot.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,oBAAoB,CAAC;AAClD,OAAO,EAAE,mBAAmB,EAAE,MAAM,mBAAmB,CAAC;AAExD,wBAAgB,mBAAmB,CAAC,MAAM,EAAE,YAAY,GAAG,mBAAmB,CAqB7E"}

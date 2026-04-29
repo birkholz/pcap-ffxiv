@@ -1,0 +1,1 @@
+{"version":3,"file":"actorControlTarget.d.ts","sourceRoot":"","sources":["../../../src/packet-processors/processors/actorControlTarget.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,oBAAoB,CAAC;AAClD,OAAO,EAAE,kBAAkB,EAAE,MAAM,mBAAmB,CAAC;AAEvD,wBAAgB,kBAAkB,CAAC,MAAM,EAAE,YAAY,GAAG,kBAAkB,CAW3E"}

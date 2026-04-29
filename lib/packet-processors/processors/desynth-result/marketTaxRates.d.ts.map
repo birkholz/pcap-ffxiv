@@ -1,0 +1,1 @@
+{"version":3,"file":"marketTaxRates.d.ts","sourceRoot":"","sources":["../../../../src/packet-processors/processors/desynth-result/marketTaxRates.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,cAAc,EAAE,MAAM,sBAAsB,CAAC;AACrE,OAAO,EAAE,YAAY,EAAE,MAAM,uBAAuB,CAAC;AAErD,wBAAgB,cAAc,CAAC,MAAM,EAAE,aAAa,EAAE,MAAM,EAAE,YAAY,GAAG,cAAc,CAa1F"}

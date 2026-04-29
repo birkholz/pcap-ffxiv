@@ -1,0 +1,1 @@
+{"version":3,"file":"airshipStatusList.d.ts","sourceRoot":"","sources":["../../../src/packet-processors/processors/airshipStatusList.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,oBAAoB,CAAC;AAClD,OAAO,EAAE,iBAAiB,EAAE,MAAM,mBAAmB,CAAC;AAiBtD,wBAAgB,iBAAiB,CAAC,MAAM,EAAE,YAAY,GAAG,iBAAiB,CAwBzE"}

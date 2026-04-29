@@ -1,0 +1,1 @@
+{"version":3,"file":"eventStart.js","sourceRoot":"","sources":["../../../src/packet-processors/processors/eventStart.ts"],"names":[],"mappings":";;;AAGA,SAAgB,UAAU,CAAC,MAAoB;IAC9C,OAAO;QACN,OAAO,EAAE,MAAM,CAAC,UAAU,EAAE;QAC5B,OAAO,EAAE,MAAM,CAAC,UAAU,EAAE;KAC5B,CAAC;AACH,CAAC;AALD,gCAKC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"ActorSetPos.d.ts","sourceRoot":"","sources":["../../src/definitions/ActorSetPos.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,aAAa,CAAC;AAExC,MAAM,WAAW,WAAW;IAC3B,GAAG,EAAE,MAAM,CAAC;IACZ,WAAW,EAAE,MAAM,CAAC;IACpB,OAAO,EAAE,MAAM,CAAC;IAChB,QAAQ,EAAE,MAAM,CAAC;IACjB,GAAG,EAAE,SAAS,CAAC;IACf,QAAQ,EAAE,MAAM,CAAC;CACjB"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"actorOwner.js","sourceRoot":"","sources":["../../../src/packet-processors/processors/actorOwner.ts"],"names":[],"mappings":";;;AAGA,SAAgB,UAAU,CAAC,MAAoB;IAC9C,OAAO;QACN,IAAI,EAAE,MAAM,CAAC,UAAU,EAAE;QACzB,OAAO,EAAE,MAAM,CAAC,UAAU,EAAE;QAC5B,QAAQ,EAAE,MAAM,CAAC,UAAU,EAAE;KAC7B,CAAC;AACH,CAAC;AAND,gCAMC"}

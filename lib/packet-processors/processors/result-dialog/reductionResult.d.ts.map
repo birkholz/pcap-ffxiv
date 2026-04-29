@@ -1,0 +1,1 @@
+{"version":3,"file":"reductionResult.d.ts","sourceRoot":"","sources":["../../../../src/packet-processors/processors/result-dialog/reductionResult.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,YAAY,EAAE,MAAM,sBAAsB,CAAC;AACrE,OAAO,EAAE,YAAY,EAAE,MAAM,uBAAuB,CAAC;AAErD,wBAAgB,eAAe,CAAC,MAAM,EAAE,YAAY,EAAE,MAAM,EAAE,YAAY,GAAG,eAAe,CAkB3F"}

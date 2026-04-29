@@ -1,0 +1,1 @@
+{"version":3,"file":"marketBoardPurchase.js","sourceRoot":"","sources":["../../../src/packet-processors/processors/marketBoardPurchase.ts"],"names":[],"mappings":";;;AAGA,SAAgB,mBAAmB,CAAC,MAAoB;IACvD,OAAO;QACN,MAAM,EAAE,MAAM,CAAC,UAAU,EAAE;QAC3B,QAAQ,EAAE,MAAM,CAAC,IAAI,CAAC,CAAC,CAAC,CAAC,UAAU,EAAE;KACrC,CAAC;AACH,CAAC;AALD,kDAKC"}

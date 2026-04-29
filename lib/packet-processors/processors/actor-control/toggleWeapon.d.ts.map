@@ -1,0 +1,1 @@
+{"version":3,"file":"toggleWeapon.d.ts","sourceRoot":"","sources":["../../../../src/packet-processors/processors/actor-control/toggleWeapon.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,YAAY,EAAE,MAAM,sBAAsB,CAAC;AAElE,wBAAgB,YAAY,CAAC,MAAM,EAAE,YAAY,GAAG,YAAY,CAK/D"}

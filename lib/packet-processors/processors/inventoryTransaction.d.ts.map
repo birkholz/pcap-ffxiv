@@ -1,0 +1,1 @@
+{"version":3,"file":"inventoryTransaction.d.ts","sourceRoot":"","sources":["../../../src/packet-processors/processors/inventoryTransaction.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,oBAAoB,EAAE,MAAM,mBAAmB,CAAC;AACzD,OAAO,EAAE,YAAY,EAAE,MAAM,oBAAoB,CAAC;AAElD,wBAAgB,oBAAoB,CAAC,MAAM,EAAE,YAAY,GAAG,oBAAoB,CAgB/E"}
