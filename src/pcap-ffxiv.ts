@@ -65,7 +65,7 @@ export class CaptureInterface extends EventEmitter {
 			message: JSON.stringify(this._options),
 		});
 
-		if (!existsSync(this._options.deucalionDllPath)) {
+		if (!this._options.bridgeTcpPort && !existsSync(this._options.deucalionDllPath ?? "")) {
 			throw new Error(`Deucalion.dll not found in ${this._options.deucalionDllPath}`);
 		}
 
@@ -171,23 +171,41 @@ export class CaptureInterface extends EventEmitter {
 			if (!this.constants) {
 				reject("Trying to start capture before ready event was emitted");
 			}
+
+			// In TCP bridge mode (Linux), the bridge process has already handled PID
+			// lookup and DLL injection — just open the TCP connection directly.
+			if (this._options.bridgeTcpPort !== undefined) {
+				this._deucalion = new Deucalion(this._options.logger, 0, this._options.name, this._options.bridgeTcpPort);
+				this._deucalion
+					.start()
+					.then(() => {
+						this._deucalion!.on("packet", (p) => this._processSegment(p));
+						this._deucalion!.on("closed", () => this.emit("stopped"));
+						this._deucalion!.on("error", (err) => this.emit("error", err));
+						resolve();
+					})
+					.catch((err) => reject(err));
+				return;
+			}
+
 			this.getXIVPID()
 				.then((pid) => {
-					const buff = readFileSync(this._options.deucalionDllPath);
-					const expectedHash = this._options.deucalionDllPath.endsWith("_12.dll")
-						? readFileSync(join(__dirname, "dll_12.sum"), "utf-8")
-						: readFileSync(join(__dirname, "dll.sum"), "utf-8");
-					const hash = crypto.createHash("sha256").update(buff).digest("hex");
-					console.log(this._options.deucalionDllPath);
-					if (hash !== expectedHash) {
-						this._options.logger({
-							type: "error",
-							message: `Deucalion Hash missmatch`,
-						});
-						reject(`Hash missmatch`);
-						return;
-					}
-					const res = injectPID(pid, this._options.deucalionDllPath);
+				const dllPath = this._options.deucalionDllPath!;
+				const buff = readFileSync(dllPath);
+				const expectedHash = dllPath.endsWith("_12.dll")
+					? readFileSync(join(__dirname, "dll_12.sum"), "utf-8")
+					: readFileSync(join(__dirname, "dll.sum"), "utf-8");
+				const hash = crypto.createHash("sha256").update(buff).digest("hex");
+				console.log(dllPath);
+				if (hash !== expectedHash) {
+					this._options.logger({
+						type: "error",
+						message: `Deucalion Hash missmatch`,
+					});
+					reject(`Hash missmatch`);
+					return;
+				}
+				const res = injectPID(pid, dllPath);
 					this._options.logger({
 						type: "info",
 						message: `Deucalion-inj res: [${res}] ${res > 0 ? ErrorCodes[res] : ""}`,
