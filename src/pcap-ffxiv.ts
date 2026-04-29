@@ -190,22 +190,22 @@ export class CaptureInterface extends EventEmitter {
 
 			this.getXIVPID()
 				.then((pid) => {
-				const dllPath = this._options.deucalionDllPath!;
-				const buff = readFileSync(dllPath);
-				const expectedHash = dllPath.endsWith("_12.dll")
-					? readFileSync(join(__dirname, "dll_12.sum"), "utf-8")
-					: readFileSync(join(__dirname, "dll.sum"), "utf-8");
-				const hash = crypto.createHash("sha256").update(buff).digest("hex");
-				console.log(dllPath);
-				if (hash !== expectedHash) {
-					this._options.logger({
-						type: "error",
-						message: `Deucalion Hash missmatch`,
-					});
-					reject(`Hash missmatch`);
-					return;
-				}
-				const res = injectPID(pid, dllPath);
+					const dllPath = this._options.deucalionDllPath!;
+					const buff = readFileSync(dllPath);
+					const expectedHash = dllPath.endsWith("_12.dll")
+						? readFileSync(join(__dirname, "dll_12.sum"), "utf-8")
+						: readFileSync(join(__dirname, "dll.sum"), "utf-8");
+					const hash = crypto.createHash("sha256").update(buff).digest("hex");
+					console.log(dllPath);
+					if (hash !== expectedHash) {
+						this._options.logger({
+							type: "error",
+							message: `Deucalion Hash missmatch`,
+						});
+						reject(`Hash missmatch`);
+						return;
+					}
+					const res = injectPID(pid, dllPath);
 					this._options.logger({
 						type: "info",
 						message: `Deucalion-inj res: [${res}] ${res > 0 ? ErrorCodes[res] : ""}`,
