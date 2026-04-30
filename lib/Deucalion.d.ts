@@ -10,6 +10,8 @@ export declare class Deucalion extends EventEmitter {
     private writeStream?;
     /** Used instead of readStream/writeStream when connecting via TCP (Linux bridge mode). */
     private _socket?;
+    /** Set to true by stop() to abort the startTcp retry loop. */
+    private _stopped;
     private remaining?;
     get running(): boolean;
     pipe_path: string;
