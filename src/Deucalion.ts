@@ -19,6 +19,8 @@ export class Deucalion extends EventEmitter {
 	private writeStream?: WriteStream;
 	/** Used instead of readStream/writeStream when connecting via TCP (Linux bridge mode). */
 	private _socket?: Socket;
+	/** Set to true by stop() to abort the startTcp retry loop. */
+	private _stopped = false;
 
 	private remaining?: Buffer;
 
@@ -74,11 +76,17 @@ export class Deucalion extends EventEmitter {
 	}
 
 	private startTcp(): Promise<void> {
+		this._stopped = false;
 		return new Promise((resolve) => {
 			let tries = 0;
 			const tryConnect = () => {
+				if (this._stopped) return;
 				const socket = createConnection({ host: "127.0.0.1", port: this.bridgeTcpPort! });
 				socket.on("connect", () => {
+					if (this._stopped) {
+						socket.destroy();
+						return;
+					}
 					this._socket = socket;
 					this.sendHandshake();
 					this.setupDataListeners();
@@ -94,7 +102,7 @@ export class Deucalion extends EventEmitter {
 							message: `[TCP] Waiting for deucalion bridge on :${this.bridgeTcpPort} (${tries} attempts)…`,
 						});
 					}
-					setTimeout(tryConnect, 200);
+					if (!this._stopped) setTimeout(tryConnect, 200);
 				});
 			};
 			tryConnect();
@@ -117,6 +125,7 @@ export class Deucalion extends EventEmitter {
 	}
 
 	public stop() {
+		this._stopped = true;
 		return new Promise<void>(async (resolve) => {
 			try {
 				await this.closeStreams();
