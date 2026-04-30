@@ -1,1 +1,0 @@
-{"version":3,"file":"weatherChange.js","sourceRoot":"","sources":["../../../src/packet-processors/processors/weatherChange.ts"],"names":[],"mappings":";;;AAGA,SAAgB,aAAa,CAAC,MAAoB;IACjD,OAAO;QACN,SAAS,EAAE,MAAM,CAAC,UAAU,EAAE;QAC9B,KAAK,EAAE,MAAM,CAAC,SAAS,EAAE;KACzB,CAAC;AACH,CAAC;AALD,sCAKC"}

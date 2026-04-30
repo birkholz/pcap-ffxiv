@@ -1,1 +1,0 @@
-{"version":3,"file":"ActorMove.d.ts","sourceRoot":"","sources":["../../src/definitions/ActorMove.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,aAAa,CAAC;AAExC,MAAM,WAAW,SAAS;IACzB,YAAY,EAAE,MAAM,CAAC;IACrB,QAAQ,EAAE,MAAM,CAAC;IACjB,aAAa,EAAE,MAAM,CAAC;IACtB,cAAc,EAAE,MAAM,CAAC;IACvB,cAAc,EAAE,MAAM,CAAC;IACvB,GAAG,EAAE,SAAS,CAAC;CACf"}

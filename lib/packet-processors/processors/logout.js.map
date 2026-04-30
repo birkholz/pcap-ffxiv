@@ -1,1 +1,0 @@
-{"version":3,"file":"logout.js","sourceRoot":"","sources":["../../../src/packet-processors/processors/logout.ts"],"names":[],"mappings":";;;AAGA,SAAgB,MAAM,CAAC,MAAoB;IAC1C,OAAO;QACN,MAAM,EAAE,MAAM,CAAC,UAAU,CAAC,CAAC,CAAC;QAC5B,MAAM,EAAE,MAAM,CAAC,UAAU,CAAC,CAAC,CAAC;KAC5B,CAAC;AACH,CAAC;AALD,wBAKC"}

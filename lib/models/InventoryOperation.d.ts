@@ -1,2 +1,0 @@
-export type InventoryOperation = "discard" | "move" | "swap" | "merge" | "split" | "transferGil" | "transferCrystal" | "transferItemPlayerRetainer" | "transferItemRetainerPlayer";
-//# sourceMappingURL=InventoryOperation.d.ts.map

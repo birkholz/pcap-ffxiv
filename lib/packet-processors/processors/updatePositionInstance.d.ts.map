@@ -1,1 +1,0 @@
-{"version":3,"file":"updatePositionInstance.d.ts","sourceRoot":"","sources":["../../../src/packet-processors/processors/updatePositionInstance.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,oBAAoB,CAAC;AAClD,OAAO,EAAE,sBAAsB,EAAE,MAAM,mBAAmB,CAAC;AAE3D,wBAAgB,sBAAsB,CAAC,MAAM,EAAE,YAAY,GAAG,sBAAsB,CAOnF"}

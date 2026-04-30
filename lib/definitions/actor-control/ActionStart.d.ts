@@ -1,6 +1,0 @@
-import { ActorControl } from "../ActorControl";
-export interface ActionStart extends ActorControl {
-    actionId: number;
-    actionCooldown: number;
-}
-//# sourceMappingURL=ActionStart.d.ts.map

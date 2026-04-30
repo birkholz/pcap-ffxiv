@@ -1,1 +1,0 @@
-{"version":3,"file":"marketBoardItemListing.d.ts","sourceRoot":"","sources":["../../../src/packet-processors/processors/marketBoardItemListing.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,sBAAsB,EAAgB,MAAM,mBAAmB,CAAC;AACzE,OAAO,EAAE,YAAY,EAAE,MAAM,oBAAoB,CAAC;AAClD,OAAO,EAAE,aAAa,EAAE,MAAM,cAAc,CAAC;AAE7C,wBAAgB,sBAAsB,CAAC,MAAM,EAAE,YAAY,EAAE,SAAS,EAAE,aAAa,GAAG,sBAAsB,CAoD7G"}

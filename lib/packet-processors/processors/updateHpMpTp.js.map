@@ -1,1 +1,0 @@
-{"version":3,"file":"updateHpMpTp.js","sourceRoot":"","sources":["../../../src/packet-processors/processors/updateHpMpTp.ts"],"names":[],"mappings":";;;AAGA,SAAgB,YAAY,CAAC,MAAoB;IAChD,OAAO;QACN,EAAE,EAAE,MAAM,CAAC,UAAU,EAAE;QACvB,EAAE,EAAE,MAAM,CAAC,UAAU,EAAE;QACvB,EAAE,EAAE,MAAM,CAAC,UAAU,EAAE;QACvB,EAAE,EAAE,MAAM,CAAC,UAAU,EAAE;KACvB,CAAC;AACH,CAAC;AAPD,oCAOC"}

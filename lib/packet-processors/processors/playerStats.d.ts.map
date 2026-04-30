@@ -1,1 +1,0 @@
-{"version":3,"file":"playerStats.d.ts","sourceRoot":"","sources":["../../../src/packet-processors/processors/playerStats.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,oBAAoB,CAAC;AAClD,OAAO,EAAE,WAAW,EAAE,MAAM,mBAAmB,CAAC;AAEhD,wBAAgB,WAAW,CAAC,MAAM,EAAE,YAAY,GAAG,WAAW,CAkC7D"}

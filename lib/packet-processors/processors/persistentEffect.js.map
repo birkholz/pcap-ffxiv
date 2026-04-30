@@ -1,1 +1,0 @@
-{"version":3,"file":"persistentEffect.js","sourceRoot":"","sources":["../../../src/packet-processors/processors/persistentEffect.ts"],"names":[],"mappings":";;;AAGA,SAAgB,gBAAgB,CAAC,MAAoB;IACpD,OAAO;QACN,QAAQ,EAAE,MAAM,CAAC,UAAU,EAAE;QAC7B,QAAQ,EAAE,MAAM,CAAC,UAAU,EAAE;KAC7B,CAAC;AACH,CAAC;AALD,4CAKC"}

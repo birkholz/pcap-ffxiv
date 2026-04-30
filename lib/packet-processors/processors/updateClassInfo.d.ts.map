@@ -1,1 +1,0 @@
-{"version":3,"file":"updateClassInfo.d.ts","sourceRoot":"","sources":["../../../src/packet-processors/processors/updateClassInfo.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,mBAAmB,CAAC;AACpD,OAAO,EAAE,YAAY,EAAE,MAAM,oBAAoB,CAAC;AAElD,wBAAgB,eAAe,CAAC,MAAM,EAAE,YAAY,GAAG,eAAe,CASrE"}

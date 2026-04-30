@@ -1,1 +1,0 @@
-{"version":3,"file":"charaVisualEffect.js","sourceRoot":"","sources":["../../../src/packet-processors/processors/charaVisualEffect.ts"],"names":[],"mappings":";;;AAGA,SAAgB,iBAAiB,CAAC,MAAoB;IACrD,OAAO;QACN,EAAE,EAAE,MAAM,CAAC,UAAU,EAAE;QACvB,OAAO,EAAE,MAAM,CAAC,UAAU,EAAE;KAC5B,CAAC;AACH,CAAC;AALD,8CAKC"}

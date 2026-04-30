@@ -1,1 +1,0 @@
-{"version":3,"file":"UpdatePositionInstance.d.ts","sourceRoot":"","sources":["../../src/definitions/UpdatePositionInstance.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,aAAa,CAAC;AAExC,MAAM,WAAW,sBAAsB;IACtC,QAAQ,EAAE,MAAM,CAAC;IACjB,mBAAmB,EAAE,MAAM,CAAC;IAC5B,GAAG,EAAE,SAAS,CAAC;IACf,cAAc,EAAE,SAAS,CAAC;CAC1B"}

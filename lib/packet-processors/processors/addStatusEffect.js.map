@@ -1,1 +1,0 @@
-{"version":3,"file":"addStatusEffect.js","sourceRoot":"","sources":["../../../src/packet-processors/processors/addStatusEffect.ts"],"names":[],"mappings":";;;AAGA,SAAgB,eAAe,CAAC,MAAoB;IACnD,OAAO;QACN,QAAQ,EAAE,MAAM,CAAC,IAAI,CAAC,IAAI,CAAC,CAAC,UAAU,EAAE;KACxC,CAAC;AACH,CAAC;AAJD,0CAIC"}

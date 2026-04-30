@@ -1,1 +1,0 @@
-{"version":3,"file":"npcSpawn.d.ts","sourceRoot":"","sources":["../../../src/packet-processors/processors/npcSpawn.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,oBAAoB,CAAC;AAClD,OAAO,EAAE,QAAQ,EAAE,MAAM,mBAAmB,CAAC;AAC7C,OAAO,EAAE,aAAa,EAAE,MAAM,cAAc,CAAC;AAE7C,wBAAgB,QAAQ,CAAC,MAAM,EAAE,YAAY,EAAE,SAAS,EAAE,aAAa,GAAG,QAAQ,CAkFjF"}

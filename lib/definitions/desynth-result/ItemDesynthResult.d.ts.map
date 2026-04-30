@@ -1,1 +1,0 @@
-{"version":3,"file":"ItemDesynthResult.d.ts","sourceRoot":"","sources":["../../../src/definitions/desynth-result/ItemDesynthResult.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,iBAAiB;IACjC,QAAQ,EAAE,MAAM,CAAC;IACjB,MAAM,EAAE,MAAM,CAAC;IACf,MAAM,EAAE,OAAO,CAAC;IAChB,MAAM,EAAE;QACP,MAAM,EAAE,MAAM,CAAC;QACf,MAAM,EAAE,OAAO,CAAC;QAChB,YAAY,EAAE,MAAM,CAAC;KACrB,EAAE,CAAC;CACJ"}
