@@ -201,7 +201,7 @@ export class CaptureInterface extends EventEmitter {
 					const expectedHash = dllPath.endsWith("_12.dll")
 						? readFileSync(join(__dirname, "dll_12.sum"), "utf-8")
 						: readFileSync(join(__dirname, "dll.sum"), "utf-8");
-					const hash = crypto.createHash("sha256").update(buff).digest("hex");
+					const hash = crypto.createHash("sha256").update(new Uint8Array(buff)).digest("hex");
 					console.log(dllPath);
 					if (hash !== expectedHash) {
 						this._options.logger({
@@ -284,7 +284,7 @@ export class CaptureInterface extends EventEmitter {
 					message: `Loading ${file} from ${localPath}`,
 				});
 				return JSON.parse(content);
-			} catch (e) {}
+			} catch (e) { }
 		}
 
 		this._options.logger({
@@ -378,7 +378,7 @@ export class CaptureInterface extends EventEmitter {
 			header: packet.header,
 			opcode: packet.header.type,
 			type: typeName as any,
-			data: Buffer.from(packet.data),
+			data: packet.data,
 		};
 
 		if (this._options.filter(packet.header, typeName)) {
